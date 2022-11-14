@@ -29,6 +29,7 @@ class Saving extends StatelessWidget {
               child: Text(
                 'Saving',
                 style: TextStyle(
+                    fontFamily: 'VarelaRound',
                     fontSize: 20,
                     fontWeight: FontWeight.w600,
                     color: Theme.of(context).colorScheme.secondary),
@@ -66,6 +67,7 @@ class Saving extends StatelessWidget {
                             Text(
                               'Mutual funds',
                               style: TextStyle(
+                                fontFamily: 'VarelaRound',
                                 fontSize: 14,
                                 fontWeight: FontWeight.w600,
                                 color: Theme.of(context).colorScheme.secondary,
@@ -74,6 +76,7 @@ class Saving extends StatelessWidget {
                             Text(
                               'Mutual funds',
                               style: TextStyle(
+                                fontFamily: 'VarelaRound',
                                 fontSize: 11,
                                 fontWeight: FontWeight.w400,
                                 color: Theme.of(context).colorScheme.secondary,
@@ -86,6 +89,7 @@ class Saving extends StatelessWidget {
                     Text(
                       'R\$ 1054,23',
                       style: TextStyle(
+                        fontFamily: 'VarelaRound',
                         fontSize: 17,
                         fontWeight: FontWeight.w600,
                         color: Theme.of(context).colorScheme.secondary,
@@ -136,6 +140,7 @@ class Saving extends StatelessWidget {
                             Text(
                               'Investment',
                               style: TextStyle(
+                                fontFamily: 'VarelaRound',
                                 fontSize: 14,
                                 fontWeight: FontWeight.w600,
                                 color: Theme.of(context).colorScheme.secondary,
@@ -144,6 +149,7 @@ class Saving extends StatelessWidget {
                             Text(
                               'Monthly income 7%',
                               style: TextStyle(
+                                fontFamily: 'VarelaRound',
                                 fontSize: 11,
                                 fontWeight: FontWeight.w400,
                                 color: Theme.of(context).colorScheme.secondary,
@@ -156,6 +162,7 @@ class Saving extends StatelessWidget {
                     Text(
                       'R\$ 1054,23',
                       style: TextStyle(
+                        fontFamily: 'VarelaRound',
                         fontSize: 17,
                         fontWeight: FontWeight.w600,
                         color: Theme.of(context).colorScheme.secondary,

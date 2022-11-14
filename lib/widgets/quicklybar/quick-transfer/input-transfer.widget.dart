@@ -27,12 +27,14 @@ class InputTransfer extends StatelessWidget {
                   'To',
                   style: TextStyle(
                     color: Colors.black38,
+                    fontFamily: 'VarelaRound',
                   ),
                 ),
                 border: InputBorder.none,
               ),
               style: TextStyle(
                 color: Theme.of(context).colorScheme.onBackground,
+                fontFamily: 'VarelaRound',
                 fontSize: 20,
               ),
             ),
@@ -48,12 +50,14 @@ class InputTransfer extends StatelessWidget {
                   'R\$',
                   style: TextStyle(
                     color: Colors.black38,
+                    fontFamily: 'VarelaRound',
                   ),
                 ),
                 border: InputBorder.none,
               ),
               style: TextStyle(
                 color: Theme.of(context).colorScheme.onBackground,
+                fontFamily: 'VarelaRound',
                 fontSize: 20,
               ),
             ),

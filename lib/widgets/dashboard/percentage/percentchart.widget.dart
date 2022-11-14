@@ -39,6 +39,7 @@ class MyPercentageChart extends StatelessWidget {
                 textPercent,
                 style: TextStyle(
                   color: mainColor,
+                  fontFamily: 'VarelaRound',
                   fontSize: 20,
                 ),
               ),
@@ -48,6 +49,7 @@ class MyPercentageChart extends StatelessWidget {
             type,
             style: const TextStyle(
               color: Colors.black54,
+              fontFamily: 'VarelaRound',
               fontSize: 12,
             ),
           ),
@@ -58,6 +60,7 @@ class MyPercentageChart extends StatelessWidget {
             value,
             style: const TextStyle(
               color: Colors.black54,
+              fontFamily: 'VarelaRound',
               fontSize: 12,
             ),
           ),

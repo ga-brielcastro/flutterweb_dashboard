@@ -28,6 +28,7 @@ class CardWidget extends StatelessWidget {
             '0000 0000 0000 0000',
             style: TextStyle(
               color: Theme.of(context).colorScheme.onSecondary,
+              fontFamily: 'VarelaRound',
               fontSize: 20,
               fontWeight: FontWeight.w600,
             ),
@@ -42,6 +43,7 @@ class CardWidget extends StatelessWidget {
                 'Gabriel Castro',
                 style: TextStyle(
                   color: Theme.of(context).colorScheme.onSecondary,
+                  fontFamily: 'VarelaRound',
                   fontSize: 20,
                 ),
               ),
@@ -49,6 +51,7 @@ class CardWidget extends StatelessWidget {
                 '01/25',
                 style: TextStyle(
                   color: Theme.of(context).colorScheme.onSecondary,
+                  fontFamily: 'VarelaRound',
                   fontSize: 18,
                 ),
               ),

@@ -23,6 +23,7 @@ class ButtonTransfer extends StatelessWidget {
             'Transfer',
             style: TextStyle(
               color: Colors.white,
+                  fontFamily: 'VarelaRound',
               fontSize: 20,
               fontWeight: FontWeight.w500,
             ),

@@ -27,6 +27,7 @@ class ProfileInfo extends StatelessWidget {
                     'Welcome back',
                     style: TextStyle(
                       color: Color.fromARGB(255, 145, 145, 145),
+                      fontFamily: 'VarelaRound',
                       fontSize: 12,
                     ),
                   ),
@@ -34,6 +35,7 @@ class ProfileInfo extends StatelessWidget {
                     'Gabriel Castro',
                     style: TextStyle(
                       color: Colors.black,
+                      fontFamily: 'VarelaRound',
                       fontSize: 16,
                     ),
                   ),

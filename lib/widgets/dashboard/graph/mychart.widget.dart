@@ -34,6 +34,7 @@ class MyChart extends StatelessWidget {
                   'Statistcs',
                   style: TextStyle(
                       fontSize: 20,
+                      fontFamily: 'VarelaRound',
                       fontWeight: FontWeight.w600,
                       color: Theme.of(context).colorScheme.secondary),
                 ),

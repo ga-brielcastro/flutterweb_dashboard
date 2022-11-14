@@ -26,6 +26,7 @@ class SearchWidget extends StatelessWidget {
                 hintText: 'Type to search',
                 hintStyle: TextStyle(
                   color: Colors.black45,
+                  fontFamily: 'VarelaRound',
                   fontSize: 15,
                 ),
               ),

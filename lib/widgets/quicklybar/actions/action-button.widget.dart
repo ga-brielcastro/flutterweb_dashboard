@@ -35,6 +35,7 @@ class ActionButton extends StatelessWidget {
               style: const TextStyle(
                 fontSize: 10,
                 color: Color.fromARGB(255, 145, 145, 145),
+                fontFamily: 'VarelaRound',
               ),
             )
           ],

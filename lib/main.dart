@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dashboard/pages/auth.page.dart';
 import 'package:flutter_dashboard/pages/home.page.dart';
+import 'config.dart';
 
-void main() {
+void main() async {
+  await initSettings();
+
   runApp(const App());
 }
 
@@ -29,7 +33,11 @@ class App extends StatelessWidget {
           onSurface: Color.fromARGB(255, 32, 32, 32),
         ),
       ),
-      home: const HomePage(),
+      initialRoute: '/auth',
+      routes: {
+        '/auth': (context) => const AuthPage(),
+        '/home': (context) => const HomePage(),
+      },
     );
   }
 }
