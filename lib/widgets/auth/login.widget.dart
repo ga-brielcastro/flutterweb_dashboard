@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_dashboard/utils/snackbar.dart';
+import 'package:flutter_dashboard/shared/snackbar.dart';
 import 'package:flutter_dashboard/widgets/notification/notification.widget.dart';
 
 import '../../controllers/signin.controller.dart';

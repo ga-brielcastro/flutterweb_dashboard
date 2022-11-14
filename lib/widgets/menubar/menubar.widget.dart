@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dashboard/shared/modal.dart';
 import 'package:flutter_dashboard/widgets/menubar/button.menubar.widget.dart';
+import 'package:flutter_dashboard/widgets/modal_default/modal_default.widget.dart';
 
 class MenuBar extends StatelessWidget {
   const MenuBar({super.key});
@@ -77,7 +79,13 @@ class MenuBar extends StatelessWidget {
                 height: 20,
               ),
               IconButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.of(context).push(
+                    ModalPage(builder: (context) {
+                      return ModalDefault();
+                    }),
+                  );
+                },
                 icon: Icon(
                   Icons.power_settings_new_rounded,
                   color: Theme.of(context).colorScheme.onSecondary,
